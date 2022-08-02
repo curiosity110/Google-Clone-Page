@@ -1,0 +1,233 @@
+.bottom a {
+        text-decoration: none;
+        color: rgb(153 157 162);
+}
+
+
+
+
+.bottom-up {
+        position: absolute;
+        left: 0px;
+        bottom: 32px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        color: rgb(112 117 122);
+        
+}
+
+
+.switzerland {
+        padding: 15px 30px;
+        color: #9aa0a6;
+        border-bottom: 1px solid rgb(60 64 67);
+        background-color:#181414;
+}
+
+.bottom-left-section {
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(112 117 122);
+        /* background-color: lightskyblue; */
+        display:flex;
+        position: absolute;
+        justify-content: left;
+        bottom: 16px;
+        left: 0;
+        width: 100%;
+
+
+
+}
+
+
+.bottom-left-section:hover , .bottom-middle-section:hover {
+        text-decoration: underline;
+        cursor: pointer;
+}
+.about:hover{
+        cursor: pointer;
+        text-decoration: underline;
+}
+.carbon a:hover {
+        text-decoration: underline;
+}
+.about {
+        margin-left: 35px;
+}
+
+.advertising,.business, .howSearchWorks {
+        margin-left: 30px;
+}
+
+
+.bottom-middle-section {
+        display:flex;
+        position: absolute;
+        bottom: 16px;
+        left: 0;
+        right: 0;
+        justify-content: center;
+        font-size: 14px;
+        color: rgb(112 117 122);
+        font-family: Arial, Helvetica, sans-serif;
+
+}
+.leaf {
+        height: 13.7px
+}
+
+
+.bottom-right-section {
+        display:flex;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(112 117 122);
+        position: absolute;
+        bottom: 16px;
+        right: 0;
+        left:0;
+        justify-content: right;
+        
+}
+
+.privacy {
+        margin-right: 30px;
+}
+
+.terms {
+        margin-right: 116px;
+
+}
+
+
+.settings {
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+
+        right:0;
+
+        bottom:0;
+        
+}
+
+
+
+.line {
+        background-color:#181414;
+        z-index: 0;
+        height: 48px;
+        position: absolute;
+        bottom:0px;
+        left:0;
+        right:0;
+
+}
+
+
+.dropdown-settings {
+        margin-top: 8px;
+        display:flex;
+        position:absolute;
+        bottom:16px;
+        right:35px;
+}
+
+.dropdown-settings-content {
+        display:none;
+        position:fixed;
+        flex-direction: column;
+        height: 225px;
+        width: 155px;
+        border-radius: 6px;
+        border-top: 5px solid  #282424;
+        border-bottom: 5px solid  #282424;
+        background-color:  #282424;
+        box-shadow: 0px 1px 2px 0px rgba(138, 138, 138, 0.3),
+        0px 2px 6px 2px rgba(158, 158, 158, 0.15);
+        bottom: 50px;
+        right: 17px;
+        line-height: 31px;
+        /* padding-left: 10px; */
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+
+
+ 
+
+
+}
+
+.dropdown-settings:hover .dropdown-settings-content {
+        display:flex;
+        transition-delay: 5s;
+        transition-duration: 5s;
+        transition: 5s;
+}
+
+.inSettings {
+        padding-left: 15px;
+
+
+
+}
+.inSettings:hover {
+        background-color: #383c3c;
+}
+.dropdown-settings-content a {
+        color: rgb(210, 210, 210);
+}
+
+
+.inSettings-content {
+        margin-top: -25px;
+
+}       
+
+.inSettings-content img {
+        display:none;      
+
+}
+.inSettings-theme:hover .inSettings-content img {
+        display: flex;
+}
+
+.inSettings-theme-
+
+
+.inSettings-content:hover .inSettings-img {
+        display: flex;
+
+}
+
+.inSettings-theme img {
+        margin-left: 50px;
+        position: fixed;
+        right: 30px;
+        bottom: 63px;
+        height: 20px;
+
+}
+
+.inSettings1 {
+        padding-left: 15px;
+
+}
+
+.inSettings1:hover {
+        box-shadow: 31px 0px 1px 10px #383c3c,
+        9px 0px 1px 10px #383c3c;
+        background-color: #383c3c;
+}
+
+.inSettings2 {
+        padding-left: 15px;
+        margin-top: -4px;
+        padding-bottom: 1px;
+        border-bottom: 1px solid rgb(97, 97, 97);
+}
+.inSettings2:hover {
+        background-color: #383c3c;
+}

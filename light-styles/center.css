@@ -1,0 +1,114 @@
+.content-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 67px;
+        z-index:100;
+        
+}
+
+.google-logo {
+        width: 272px;    
+        margin-bottom: 26px;
+
+}
+
+.search-engine {
+        width: 578px;
+        height: 43px;
+        border-radius: 250px;  
+        border: 1px solid rgb(238, 238, 238);   
+}
+
+.search-engine:hover {
+        box-shadow:
+        0px 0px 1px 0px rgba(92, 92, 93, 0.3),
+        0px 0px 3px 1px rgba(186, 188, 190, 0.15);
+}
+
+.mag-mic {
+        position: relative;
+        top: -49px;
+        display:flex;
+        flex-direction: row;
+}
+
+.mag {
+        height: 24px;
+        margin-top: 12px;
+        margin-right: 503px;
+        position:relative;
+        right: 3px;
+}
+.mic {
+        margin-top: 9px;
+        height: 28px;
+
+}
+
+
+.button-search {
+        position:relative;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        font-stretch: ultra-expanded;
+        top: -9px;
+        padding: 9px 17px;
+        border-radius: 3px;
+        border: none;
+        background-color: rgb(249, 248, 248);
+        margin-right: 6px;
+        border: 1px solid transparent;
+
+}
+.button-lucky {
+        position:relative;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        font-stretch: ultra-expanded;
+        top: -9px;
+        padding: 9px 17px;
+        border-radius: 3px;
+        border: none;
+        background-color: rgb(249, 248, 248);
+        /* height: 30px;
+        width: 125px; */
+        border: 1px solid transparent;
+
+}
+.buttons-center a{
+        text-decoration: none;
+        color: rgb(60 64 67);
+
+}
+
+
+.button-lucky:hover, .button-search:hover {
+        box-shadow: 0px 0px 0px 1px rgb(224, 224, 224);
+
+        
+}
+
+
+.language-options {
+        margin-top: 20px;
+        margin-left: -8px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        color:rgb(77 81 86);
+}
+
+.language-options a {
+        word-spacing: 5px;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+
+}
+
+.language-options  a:hover {
+        text-decoration: underline;
+}
